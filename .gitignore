@@ -1,0 +1,47 @@
+# macOS / editors
+.DS_Store
+.AppleDouble
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Swift / Xcode generated data
+.build/
+.swiftpm/
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+*.xcresult
+*.xcarchive
+*.app/
+*.dSYM/
+*.ipa
+*.log
+
+# Local-only configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.local
+*.local.*
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+AuthKey_*
+credentials.json
+secrets.json
+.mcp.json
+
+# Agent state / temporary outputs
+.codex/
+.agents/
+/work/
+/outputs/
